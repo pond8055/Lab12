@@ -2,16 +2,8 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${SERVER}    localhost:7272
+${SERVER}    https://www.google.com/
 ${BROWSER}    Chrome
-${REGISTER URL}     http://${SERVER}/Lab3/Registration.html
-${SUCCESS URL}    http://${SERVER}/Lab3/Success.html
-${DELAY}    0
-${VALID FIRSTNAME}    Somsri
-${VALID LASTNAME}    Sodsai
-${VALID ORGANIZATION}    CS KKU
-${VALID EMAIL}    somsri@kkumail.com
-${VALID PHONENUMBER}    081-001-1234
 
 *** Test Browser ***
 Open Browser
